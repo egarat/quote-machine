@@ -20,7 +20,7 @@ h1 {
   color: #ccc;
   font-size: 20px;
   font-weight: 300;
-  margin: 20px 0;
+  margin: 40px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -54,7 +54,8 @@ cite::before {
   width: 100%;
 }
 
-button {
+button,
+button:focus {
   cursor: pointer;
   display: block;
   font-weight: 700;
@@ -63,17 +64,14 @@ button {
   text-align: center;
   text-transform: uppercase;
   width: 220px;
-}
-
-.btn,
-.btn:visited {
   border: 2px solid #2c3e50;
   border-radius: 20px;
   padding: 10px 10px;
   transition: 0.2s;
+  outline: none;
 }
 
-.btn:hover {
+button:hover {
   background-color: #2c3e50;
   color: #fff;
 }
@@ -85,11 +83,20 @@ button {
   }
   
   h1 {
-    margin: 100px auto;
+    font-size: 30px;
+    margin: 100px auto 50px auto;
+  }
+  
+  blockquote {
+    font-size: 34px;
+  }
+  
+  cite {
+    font-size: 20px;
   }
   
   .quote-field {
     margin: 60px auto;
-    max-width: 60%;
+    max-width: 100%;
   }
 }
