@@ -5,4 +5,4 @@ Due to mixed content restriction, the quote generator does not work on GitHub Pa
 
 More information: https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content
 
-A working demo can be found on [codepen](http://codepen.io/egarat/pen/BLrmBX).
+A working demo can be found on [codepen](http://codepen.io/egarat/full/BLrmBX/).
